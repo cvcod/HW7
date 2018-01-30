@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>HW7.html</title>
+<script>
+ 
+   function GetVolume( l, w, h )
+         {
+           var Result = l * w * h;
+           return Result;
+         }
+
+   function startProcess()
+         {
+           var Length = 10;
+           var Width = 7;
+           var Height = 3;
+
+           var res = GetVolume( Length, Width, Height );
+ 
+           document.write('<center><h3>The Volume is ' + res + '</h3></center>');
+          }
+
+   startProcess();
+
+</script>
+</head>
+<body>
+</body>
+</html> 
